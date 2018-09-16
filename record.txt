@@ -1,0 +1,4 @@
+versions 1.0
+1.打好框架基本目录结构
+2.实现index.php?p=admin&m=test&a=test的基本url访问
+3.引入Smarty模版引擎作为框架的模版引擎
