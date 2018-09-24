@@ -1,12 +1,17 @@
 <?php
 namespace app\admin\controller;
+use QQ\SendMessage;
 class IndexController{
 	
 	public function index(){
 		
-		echo 'index';
+		$qq = new SendMessage();
+		$qq->send();
+		
 	}
 	
 }
+
+
 
 ?>
